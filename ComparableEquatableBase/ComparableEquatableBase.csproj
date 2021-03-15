@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net47</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Bart Piotrowski</Authors>
+    <Company>Bart Piotrowski</Company>
+    <Description>a quick solution for implementing equality, comparison on reference types, using a base class. This approach has some drawbacks; it's not particularly optimized for performance, and "burns" a base class for relatively trivial purposes, which could be seen as an anti-pattern</Description>
+    <Copyright>(c) 2018 Bart Piotrowski</Copyright>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageReleaseNotes>initial, add snk signedver</PackageReleaseNotes>
+    <Version>1.0.1</Version>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>ComparableEquatableBase.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+</Project>
